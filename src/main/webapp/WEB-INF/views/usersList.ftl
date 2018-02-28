@@ -15,9 +15,12 @@
             <td> ${user.name} </td>
             <td> ${user.email} </td>
             <td> ${user.age} </td>
+            <td><a href="/delete/${user.id}"> Delete </td>
+            <td><a href="/update/${user.id}"> Update </td>
         </tr>
         </#list>
 </table>
+<a href="adduser">add user</a>
 </body>
 <head>
     <meta charset="UTF-8">

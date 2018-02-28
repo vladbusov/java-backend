@@ -20,12 +20,12 @@ public class UserDaoImpl implements UserDao
     }
 
     public void update(User user) {
-        String sql = "UPDATE user SET name=?,email=?,age=? WHERE id=?";
+        String sql = "UPDATE User SET name=?, email=?, age=? WHERE id=?";
         jdbcTemplate.update(sql, user.getName(), user.getEmail(), user.getAge(), user.getId());
     }
 
     public void delete(int id) {
-        String sql = "DELETE FROM user WHERE id=?";
+        String sql = "DELETE FROM User WHERE id=?";
         jdbcTemplate.update(sql, id);
     }
 
