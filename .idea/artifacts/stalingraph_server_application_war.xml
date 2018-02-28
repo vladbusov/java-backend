@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="stalingraph_server_application:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="stalingraph_server_application-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="stalingraph_server_application:war exploded" />
+    </root>
+  </artifact>
+</component>

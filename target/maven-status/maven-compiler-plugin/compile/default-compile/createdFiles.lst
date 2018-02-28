@@ -1,0 +1,6 @@
+com/stalingraph/service/TestBean.class
+com/stalingraph/controller/UserController.class
+com/stalingraph/service/UserService.class
+com/stalingraph/App.class
+com/stalingraph/config/SpringConfig.class
+com/stalingraph/dao/UserDao.class
