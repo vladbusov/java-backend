@@ -1,6 +1,8 @@
 package com.stalingraph.config;
 
 
+import com.stalingraph.dao.UserDao;
+import com.stalingraph.dao.UserDaoImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -30,4 +32,5 @@ public class WebConfig extends WebMvcConfigurerAdapter{
         freeMarkerConfigurer.setTemplateLoaderPaths("/","/WEB-INF/views/");
         return freeMarkerConfigurer;
     }
+
 }
